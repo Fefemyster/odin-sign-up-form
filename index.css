@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "myFont";
+  src: url("font/Norse.otf");
+}
+
+* {
+  font-family: "myFont", "Helvetica", "Trebuchet MS", "Verdana", sans-serif;
+}
+
+body {
+  color: red;
+}
