@@ -3,13 +3,14 @@
   src: url("font/Norse.otf");
 }
 
+body {
+  background: pink;
+}
+
 * {
   font-family: "Helvetica", "Trebuchet MS", "Verdana", sans-serif;
   padding: 0;
   margin: 0;
-}
-
-body {
 }
 
 p {
@@ -20,8 +21,34 @@ p {
 
 input {
   width: 300px;
+  height: 30px;
 }
 
 .container {
   display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.floral-background {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.logo-container {
+  position: relative;
+  height: 100vh;
+}
+
+.odin-logo {
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(
+    -50%,
+    -50%
+  ); /* Perfectly offsets the image by its own half-width and half-height */
 }
