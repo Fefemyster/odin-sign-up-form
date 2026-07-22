@@ -41,9 +41,14 @@ input {
   height: 100vh;
 }
 
-.odin-logo {
-  height: 250px;
-  width: 250px;
+.odin-container {
+  display: flex;
+  color: red;
+  align-items: center;
+  font-size: 150px;
+  width: 100%;
+  background: black;
+  opacity: 0.6;
   position: absolute;
   top: 35%;
   left: 50%;
@@ -51,4 +56,8 @@ input {
     -50%,
     -50%
   ); /* Perfectly offsets the image by its own half-width and half-height */
+}
+
+img ~ p {
+  font-family: myFont;
 }
