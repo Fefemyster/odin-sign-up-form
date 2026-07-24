@@ -38,8 +38,13 @@ body {
 }
 
 form {
-  width: 100%;
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+}
+
+.elements-container {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
 }
 
 button {
@@ -53,9 +58,11 @@ input {
   height: 30px;
 }
 
-.container {
+.parent-container {
   display: flex;
   align-items: center;
+  width: 100vw;
+  height: 100vh;
 }
 
 .floral-background {
@@ -67,6 +74,7 @@ input {
 .logo-container {
   position: relative;
   height: 100vh;
+  flex: 1;
 }
 
 .odin-container {
