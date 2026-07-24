@@ -27,65 +27,90 @@
         <div class="text-mark">Odin</div>-->
 
         <div class="odin-container">
-          <img src="/images/odin-lined.png" alt="Odin logo" />
+          <img class="odin-logo" src="/images/odin-lined.png" alt="Odin logo" />
           <p>Odin</p>
         </div>
       </div>
 
-      <form action="">
-        <p>Let's do this!</p>
-        <p>
-          <label for="first_name">FIRST NAME</label>
-          <input
-            type="text"
-            id="first_name"
-            name="first_name"
-            placeholder="John"
-          />
-        </p>
-        <p>
-          <label for="last_name">LAST NAME</label>
-          <input
-            type="text"
-            id="last_name"
-            name="last_name"
-            placeholder="Doe"
-          />
-        </p>
-        <p>
-          <label for="email">EMAIL</label>
-          <input
-            type="email"
-            id="email"
-            name="user_email"
-            placeholder="email@example.com"
-          />
-        </p>
-        <p>
-          <label for="phone_number">PHONE NUMBER</label>
-          <input
-            type="tel"
-            id="user_phone"
-            name="user_phone"
-            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-            placeholder="123-456-7890"
-          />
-        </p>
+      <div>
+        <div>
+          <div>
+            This is not a real online service! You know you need something like
+            this in your life to help you realize your deepest dreams. Sign up
+            now to get started
+          </div>
+          <div>You <em>know</em> what you want</div>
+        </div>
 
-        <p>
-          <label for="user_password">PASSWORD</label>
-          <input type="password" id="user_password" name="password" />
-        </p>
+        <form action="">
+          <h2>Let's do this!</h2>
+          <div class="form-container">
+            <div class="column">
+              <div class="input-group">
+                <label for="first_name">FIRST NAME</label>
+                <input
+                  type="text"
+                  id="first_name"
+                  name="first_name"
+                  placeholder="John"
+                />
+              </div>
 
-        <p>
-          <label for="confirm_password">CONFIRM PASSWORD</label>
-          <input
-            type="password"
-            id="confirmed_password"
-            name="confirmed_password"
-          />
-        </p>
-      </form>
+              <div class="input-group">
+                <label for="email">EMAIL</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="user_email"
+                  placeholder="email@example.com"
+                />
+              </div>
+
+              <div class="input-group">
+                <label for="user_password">PASSWORD</label>
+                <input type="password" id="user_password" name="password" />
+              </div>
+            </div>
+
+            <div class="column">
+              <div class="input-group">
+                <label for="last_name">LAST NAME</label>
+                <input
+                  type="text"
+                  id="last_name"
+                  name="last_name"
+                  placeholder="Doe"
+                />
+              </div>
+
+              <div class="input-group">
+                <label for="phone_number">PHONE NUMBER</label>
+                <input
+                  type="tel"
+                  id="user_phone"
+                  name="user_phone"
+                  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                  placeholder="123-456-7890"
+                />
+              </div>
+
+              <div class="input-group">
+                <label for="confirm_password">CONFIRM PASSWORD</label>
+                <input
+                  type="password"
+                  id="confirmed_password"
+                  name="confirmed_password"
+                />
+              </div>
+            </div>
+          </div>
+        </form>
+
+        <div class="submit-section">
+          <button type="submit">Create Account</button>
+          <div>Already have an account? Log in</div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
